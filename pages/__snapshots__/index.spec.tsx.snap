@@ -3,22 +3,14 @@
 exports[`Index should match snapshot 1`] = `
 <DocumentFragment>
   .emotion-0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-}
-
-.emotion-0>*:not(style)~*:not(style) {
-  margin-top: 0.5rem;
-  -webkit-margin-end: 0px;
-  margin-inline-end: 0px;
-  margin-bottom: 0px;
-  -webkit-margin-start: 0px;
-  margin-inline-start: 0px;
+  max-width: 960px;
+  -webkit-margin-start: auto;
+  margin-inline-start: auto;
+  -webkit-margin-end: auto;
+  margin-inline-end: auto;
 }
 
 .emotion-1 {
@@ -44,8 +36,27 @@ exports[`Index should match snapshot 1`] = `
   border-radius: md;
 }
 
+.emotion-5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-5>*:not(style)~*:not(style) {
+  margin-top: 0.5rem;
+  -webkit-margin-end: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: 0px;
+  -webkit-margin-start: 0px;
+  margin-inline-start: 0px;
+}
+
 <div
-    class="chakra-stack emotion-0"
+    class="emotion-0"
   >
     <div
       class="emotion-1"
@@ -65,73 +76,18 @@ exports[`Index should match snapshot 1`] = `
       class="emotion-4"
     >
       <div
-        class="chakra-stack emotion-0"
+        class="chakra-stack emotion-5"
       >
         <h2
           class="chakra-heading emotion-6"
         >
-          Welcome to your frontend!
+          Welcome to your Root App!
         </h2>
         <p
           class="chakra-text emotion-6"
         >
-          Here you'll find examples of how you can implement things the right way!
+          Here put your content
         </p>
-        <div
-          class="emotion-6"
-        >
-          <ul
-            class="list-style"
-          >
-            <li>
-              <p
-                class="chakra-text emotion-6"
-              >
-                Styling
-              </p>
-              <ul
-                class="list-style"
-              >
-                <a
-                  href="vscode://file//components/html-wrapper/index.tsx"
-                >
-                  <li>
-                    CSS-in-JS (We prefer to use this one!)
-                  </li>
-                </a>
-                <a
-                  href="vscode://file//components/welcome/welcome.module.scss"
-                >
-                  <li>
-                    CSS modules
-                  </li>
-                </a>
-                <a
-                  href="vscode://file//styles/main.scss"
-                >
-                  <li>
-                    Classic CSS/SCSS
-                  </li>
-                </a>
-              </ul>
-            </li>
-            <li>
-              How to write components
-            </li>
-            <li>
-              Data fetching
-            </li>
-            <li>
-              Global state
-            </li>
-            <li>
-              Routing
-            </li>
-            <li>
-              Testing
-            </li>
-          </ul>
-        </div>
       </div>
     </div>
   </div>

@@ -13,21 +13,21 @@ exports[`ErrorFallback should match snapshot 1`] = `
     </pre>
     <pre>
       Error: test error
-    at Object.&lt;anonymous&gt; (/Users/pablosanchez/Projects/Prisma/arquitectura-prisma/global_templates/npm/bondi-template/components/error-fallback/index.spec.tsx:7:58)
-    at Promise.then.completed (/Users/pablosanchez/Projects/Prisma/arquitectura-prisma/global_templates/npm/bondi-template/node_modules/jest-circus/build/utils.js:390:28)
+    at Object.&lt;anonymous&gt; (/Users/pablosanchez/Projects/Prisma/arquitectura-prisma/global_templates/npm/root-app/components/error-fallback/index.spec.tsx:7:58)
+    at Promise.then.completed (/Users/pablosanchez/Projects/Prisma/arquitectura-prisma/global_templates/npm/root-app/node_modules/jest-circus/build/utils.js:390:28)
     at new Promise (&lt;anonymous&gt;)
-    at callAsyncCircusFn (/Users/pablosanchez/Projects/Prisma/arquitectura-prisma/global_templates/npm/bondi-template/node_modules/jest-circus/build/utils.js:315:10)
-    at _callCircusTest (/Users/pablosanchez/Projects/Prisma/arquitectura-prisma/global_templates/npm/bondi-template/node_modules/jest-circus/build/run.js:218:40)
+    at callAsyncCircusFn (/Users/pablosanchez/Projects/Prisma/arquitectura-prisma/global_templates/npm/root-app/node_modules/jest-circus/build/utils.js:315:10)
+    at _callCircusTest (/Users/pablosanchez/Projects/Prisma/arquitectura-prisma/global_templates/npm/root-app/node_modules/jest-circus/build/run.js:218:40)
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
-    at _runTest (/Users/pablosanchez/Projects/Prisma/arquitectura-prisma/global_templates/npm/bondi-template/node_modules/jest-circus/build/run.js:155:3)
-    at _runTestsForDescribeBlock (/Users/pablosanchez/Projects/Prisma/arquitectura-prisma/global_templates/npm/bondi-template/node_modules/jest-circus/build/run.js:66:9)
-    at _runTestsForDescribeBlock (/Users/pablosanchez/Projects/Prisma/arquitectura-prisma/global_templates/npm/bondi-template/node_modules/jest-circus/build/run.js:60:9)
-    at run (/Users/pablosanchez/Projects/Prisma/arquitectura-prisma/global_templates/npm/bondi-template/node_modules/jest-circus/build/run.js:25:3)
-    at runAndTransformResultsToJestFormat (/Users/pablosanchez/Projects/Prisma/arquitectura-prisma/global_templates/npm/bondi-template/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:167:21)
-    at jestAdapter (/Users/pablosanchez/Projects/Prisma/arquitectura-prisma/global_templates/npm/bondi-template/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
-    at runTestInternal (/Users/pablosanchez/Projects/Prisma/arquitectura-prisma/global_templates/npm/bondi-template/node_modules/jest-runner/build/runTest.js:389:16)
-    at runTest (/Users/pablosanchez/Projects/Prisma/arquitectura-prisma/global_templates/npm/bondi-template/node_modules/jest-runner/build/runTest.js:481:34)
-    at Object.worker (/Users/pablosanchez/Projects/Prisma/arquitectura-prisma/global_templates/npm/bondi-template/node_modules/jest-runner/build/testWorker.js:133:12)
+    at _runTest (/Users/pablosanchez/Projects/Prisma/arquitectura-prisma/global_templates/npm/root-app/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/Users/pablosanchez/Projects/Prisma/arquitectura-prisma/global_templates/npm/root-app/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/Users/pablosanchez/Projects/Prisma/arquitectura-prisma/global_templates/npm/root-app/node_modules/jest-circus/build/run.js:60:9)
+    at run (/Users/pablosanchez/Projects/Prisma/arquitectura-prisma/global_templates/npm/root-app/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/pablosanchez/Projects/Prisma/arquitectura-prisma/global_templates/npm/root-app/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:167:21)
+    at jestAdapter (/Users/pablosanchez/Projects/Prisma/arquitectura-prisma/global_templates/npm/root-app/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/pablosanchez/Projects/Prisma/arquitectura-prisma/global_templates/npm/root-app/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/pablosanchez/Projects/Prisma/arquitectura-prisma/global_templates/npm/root-app/node_modules/jest-runner/build/runTest.js:481:34)
+    at Object.worker (/Users/pablosanchez/Projects/Prisma/arquitectura-prisma/global_templates/npm/root-app/node_modules/jest-runner/build/testWorker.js:133:12)
     </pre>
   </div>
 </DocumentFragment>

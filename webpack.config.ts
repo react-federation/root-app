@@ -5,7 +5,7 @@ import Webpack from 'webpack'
 import packageJson from './package.json'
 
 const { ModuleFederationPlugin } = Webpack.container
-const { APP_NAMESPACE: name = 'root_app', APP_MODULE: module = 'root_app' } = process.env
+const { APP_NAMESPACE: name = 'default_namespace', APP_MODULE: module = 'root_app' } = process.env
 
 const moduleFederationConfig = {
   name,
@@ -53,7 +53,7 @@ const projectConfig: ReturnType<typeof merge> = {
   },
   plugins: [moduleFederationPlugin, definePlugin],
   output: {
-    publicPath: '/'
+    publicPath: 'auto'
   }
 }
 

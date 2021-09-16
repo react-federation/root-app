@@ -10,7 +10,7 @@ const { APP_NAMESPACE: name = 'default_namespace', APP_MODULE: module = 'root_ap
 const moduleFederationConfig = {
   name,
   exposes: {
-    [module]: './app.tsx'
+    [module]: './components/welcome/index.tsx'
   },
   filename: 'root_app.js',
   shared: {
@@ -34,6 +34,13 @@ const moduleFederationConfig = {
       shareScope: 'default',
       singleton: true,
       requiredVersion: packageJson.dependencies['react-router-dom']
+    },
+    '@emotion/react': {
+      import: '@emotion/react',
+      shareKey: '@emotion/react',
+      shareScope: 'default',
+      singleton: true,
+      requiredVersion: packageJson.dependencies['@emotion/react']
     }
   }
 }
@@ -48,7 +55,7 @@ const definePlugin = new Webpack.DefinePlugin({
 
 const projectConfig: ReturnType<typeof merge> = {
   devServer: {
-    port: 3000,
+    port: 3004,
     historyApiFallback: true
   },
   plugins: [moduleFederationPlugin, definePlugin],

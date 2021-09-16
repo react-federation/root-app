@@ -2,12 +2,11 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import { BrowserRouter } from 'react-router-dom'
 import { ChakraProvider } from '@chakra-ui/react'
-import { Box, Flex } from '@chakra-ui/layout'
 import { ErrorBoundary } from 'react-error-boundary'
 
 import ErrorFallback from 'components/error-fallback'
 
-import Routes from 'router/routesComponent'
+import Welcome from 'components/welcome'
 
 const App = () => {
   return (
@@ -18,11 +17,7 @@ const App = () => {
       </Helmet>
       <BrowserRouter>
         <ChakraProvider>
-          <Flex direction="column" height="100vh">
-            <Box mt={4} className="container" flex={1}>
-              <Routes />
-            </Box>
-          </Flex>
+          <Welcome />
         </ChakraProvider>
       </BrowserRouter>
     </ErrorBoundary>
